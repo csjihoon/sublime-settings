@@ -1,15 +1,16 @@
 {
 	"animation_enabled": false,
-	"auto_complete_commit_on_tab": true,
 	"auto_complete": false,
+	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/Mac Classic Theme/Mac Classic.tmTheme",
 	"detect_indentation": false,
 	"ensure_newline_at_eof_on_save": true,
+	"font_size": 11,
+	"font_face": "SF Mono Regular",
 	"font_options":
 	[
 		"no_italic"
 	],
-	"font_size": 12,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -17,7 +18,7 @@
 	],
 	"indent_subsequent_lines": false,
 	"mini_diff": false,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Soda Light 3.sublime-theme",
 	"trim_automatic_white_space": false,
 	"word_wrap": false
 }
