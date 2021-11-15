@@ -10,10 +10,10 @@
 	{ "keys": ["super+7"], "command": "focus_group", "args": { "group": 6 } },
 	{ "keys": ["super+8"], "command": "focus_group", "args": { "group": 7 } },
 	{ "keys": ["super+9"], "command": "focus_group", "args": { "group": 8 } },
-	{ "keys": ["super+j"], "command": "toggle_terminus_panel" },
-	{ "keys": ["super+shift+t"], "command": "terminus_open", "args": { "cwd": "${file_path:${folder}}" } },
 	{ "keys": ["alt+up"], "command": "swap_line_up" },
 	{ "keys": ["alt+down"], "command": "swap_line_down" },
 	{ "keys": ["alt+shift+down"], "command": "duplicate_lines" },
-	{ "key": "setting.auto_complete_commit_on_tab", "operand": true }
+	{ "key": "setting.auto_complete_commit_on_tab", "operand": true },
+	{ "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} }
 ]
