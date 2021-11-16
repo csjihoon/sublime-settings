@@ -1,23 +1,21 @@
 {
+	"font_face": "SF Mono",
+	"font_size": 11,
+	"font_options": ["no_italic"],
+	"mini_diff": false,
+	"detect_indentation": false,
 	"animation_enabled": false,
 	"auto_complete_commit_on_tab": true,
+	"auto_complete": false,
 	"color_scheme": "Packages/Mac Classic Theme/Mac Classic Theme.tmTheme",
-	"detect_indentation": false,
 	"draw_indent_guides": false,
 	"ensure_newline_at_eof_on_save": true,
-	"font_options":
-	[
-		"no_italic"
-	],
-	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
-	"indent_subsequent_lines": false,
-	"mini_diff": false,
 	"scroll_past_end": true,
 	"show_full_path": true,
-	"theme": "ayu-light.sublime-theme",
-	"trim_automatic_white_space": false
+	"trim_automatic_white_space": false,
+	"theme": "Adaptive.sublime-theme",
 }

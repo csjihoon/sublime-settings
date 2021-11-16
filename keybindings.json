@@ -15,5 +15,7 @@
 	{ "keys": ["alt+shift+down"], "command": "duplicate_lines" },
 	{ "key": "setting.auto_complete_commit_on_tab", "operand": true },
 	{ "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
-	{ "keys": ["alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} }
+	{ "keys": ["alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+	{ "keys": ["super+j"], "command": "toggle_terminus_panel"},
+ 	{ "keys": ["super+shift+t"], "command": "terminus_open", "args": {"cwd": "${file_path:${folder}}"}}
 ]
